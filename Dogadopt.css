@@ -1,0 +1,248 @@
+@charset "UTF-8";
+Html{
+    box-sizing: border-box;
+}
+Body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background-color: white;
+    margin: 0px;
+}
+
+
+
+header img{
+    padding-left: 700px;
+}
+/* top navigation Rules*/
+.topnav {
+    background-color: #4d825b;
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 450px;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+}
+.topnav a:hover {
+    background-color: #F3D88A;
+    color: black;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: #F3D88A;
+}
+
+/*block text*/  
+main{
+    padding: 2em;
+    background-color: #4d825b;
+    width: 600px;
+    height:500px;
+}
+main h1{
+    font-family: 'adelle', sans-serif;
+    text-align: left;
+    float:left;
+    font-size: 55px;
+    color: white;
+}
+#container{
+    display: flex;
+  flex-direction: column;
+}
+#container .app{
+    margin-top: 150px;
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+/*residents*/
+.oldie-text{
+    margin-top: 40px;
+}
+.Charlie,.bianca,.odin,.gorg,.felix,.bongo{
+    background-position: center;
+    text-align: right;
+
+    background-color: #F3D88A;
+    padding: 20px;
+    margin: 15px 72px 15px 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+.Charlie{
+    margin-top: -564px;
+}
+
+#oldies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-left: 870px;
+    width: 600px;
+}
+#oldies img{
+    margin: 1em;
+    border-radius: 25%;
+}
+#oldies h4{
+    font-family: 'adelle', sans-serif;
+}
+
+.need-help a{
+            background-color: #4d825b;
+            border-radius: 25px;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding: 15px;
+            width: 16%;
+            text-decoration: none;
+            float:right;
+      
+        }
+.need-help a:hover {
+            background-color: #F3D88A;
+            color: black;
+        }
+.need-help a.active {
+            background-color: #04AA6D;
+            color: #F3D88A;
+        }
+.BOTTOM{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+/*resources nav*/
+.bottomnav1 a{
+    background-color: #4d825b;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 16%;
+    text-decoration: none;
+    float:right;
+    margin-right: 415px;
+}
+.bottomnav1 a:hover {
+    background-color: #F3D88A;
+    color: black;
+}
+.bottomnav1 a.active {
+    background-color: #04AA6D;
+    color: #F3D88A;
+}
+
+/*donate nav*/
+.bottomnav2 a{
+    background-color: #4d825b;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 16%;
+    text-decoration: none;
+    float: right;
+    margin-right: 415px;
+}
+.bottomnav2 a:hover {
+    background-color: #F3D88A;
+    color: black;
+}
+.bottomnav2 a.active {
+    background-color: #04AA6D;
+    color: #F3D88A;
+}
+
+/*back to top*/
+.bottomnav3 a{
+    background-color: #4d825b;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    padding: 15px;
+    width: 3%;
+    text-decoration: none;
+    float: right;
+}
+.bottomnav3 a:hover {
+    background-color: #F3D88A;
+    color: black;
+}
+.bottomnav3 a.active {
+    background-color: #04AA6D;
+    color: #F3D88A;
+}
+
+
+
+ /*more residents*/  
+    .see-more a{
+        background-color: #4d825b;
+        border-radius: 25px;
+        color: white;
+        text-align: right;
+        margin-bottom: 1px;
+        padding: 15px;
+        width: 16%;
+        text-decoration: none;
+        float:right;
+    }
+
+    .see-more a:hover {
+        background-color: #F3D88A;
+        color: black;
+    }
+    .see-more a.active {
+        background-color: #04AA6D;
+        color: #F3D88A;
+    }
+
+
+    /*bottom part*/
+    #paws{
+        background-repeat: no-repeat;
+        opacity: .75;
+        background-position: bottom left;
+        margin-bottom: -400px;
+        margin-top: 50px;
+        }
+#footer p{
+    background-color: #4d825b;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    margin-top: 7em;
+}
+ /*CIRCLE*/
+ #halfcircle{
+    position: relative;
+    left: 240px;
+    bottom: -112px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 500px 500px 0 0;
+    background-color: #9bc5a6;
+}
+ 
